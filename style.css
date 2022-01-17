@@ -1,0 +1,30 @@
+html{
+    min-height: 100%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+svg{
+    background-color: wheat;
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
+
+#legend{
+    min-height: 300px;
+}
